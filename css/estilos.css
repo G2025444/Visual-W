@@ -9,7 +9,7 @@ body{
 }
 
 :root{
-    --color-principal: #b43e0c;
+    --color-principal: #d7480b;
     --color-texto: #000000;
     --ancho-max:1140px 
 }
@@ -199,3 +199,9 @@ footer a{
 .hamburguesa.activo span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
 .hamburguesa.activo span:nth-child(2) { opacity: 0; }
 .hamburguesa.activo span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+.cards img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+   
+}
